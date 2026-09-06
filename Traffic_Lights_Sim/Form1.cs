@@ -16,5 +16,16 @@ namespace Traffic_Lights_Sim
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            // ctrlTraficLight1.CountDownStartValue = 10;
+            ctrlTraficLight1.Start();
+            ctrlTraficLight2.Start();
+            ctrlTraficLight3.Start();
+            ctrlTraficLight4.Start();
+
+        }
+
     }
 }

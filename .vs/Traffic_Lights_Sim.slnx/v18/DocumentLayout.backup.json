@@ -5,6 +5,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{C1DD721B-ED7B-44DD-A82F-E16C23C6D32C}|Traffic_Lights_Sim\\Traffic_Lights_Sim.csproj|d:\\traffic_lights_simulator\\traffic_lights_sim\\traffic_lights_sim\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C1DD721B-ED7B-44DD-A82F-E16C23C6D32C}|Traffic_Lights_Sim\\Traffic_Lights_Sim.csproj|solutionrelative:traffic_lights_sim\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1DD721B-ED7B-44DD-A82F-E16C23C6D32C}|Traffic_Lights_Sim\\Traffic_Lights_Sim.csproj|D:\\Traffic_lights_Simulator\\Traffic_Lights_Sim\\traffic_lights_sim\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1DD721B-ED7B-44DD-A82F-E16C23C6D32C}|Traffic_Lights_Sim\\Traffic_Lights_Sim.csproj|solutionrelative:traffic_lights_sim\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1DD721B-ED7B-44DD-A82F-E16C23C6D32C}|Traffic_Lights_Sim\\Traffic_Lights_Sim.csproj|D:\\Traffic_lights_Simulator\\Traffic_Lights_Sim\\traffic_lights_sim\\ctrltraficlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C1DD721B-ED7B-44DD-A82F-E16C23C6D32C}|Traffic_Lights_Sim\\Traffic_Lights_Sim.csproj|solutionrelative:traffic_lights_sim\\ctrltraficlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1DD721B-ED7B-44DD-A82F-E16C23C6D32C}|Traffic_Lights_Sim\\Traffic_Lights_Sim.csproj|D:\\Traffic_lights_Simulator\\Traffic_Lights_Sim\\traffic_lights_sim\\ctrltraficlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1DD721B-ED7B-44DD-A82F-E16C23C6D32C}|Traffic_Lights_Sim\\Traffic_Lights_Sim.csproj|solutionrelative:traffic_lights_sim\\ctrltraficlight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,12 +42,50 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ctrlTraficLight.cs",
+              "DocumentMoniker": "D:\\Traffic_lights_Simulator\\Traffic_Lights_Sim\\Traffic_Lights_Sim\\ctrlTraficLight.cs",
+              "RelativeDocumentMoniker": "Traffic_Lights_Sim\\ctrlTraficLight.cs",
+              "ToolTip": "D:\\Traffic_lights_Simulator\\Traffic_Lights_Sim\\Traffic_Lights_Sim\\ctrlTraficLight.cs",
+              "RelativeToolTip": "Traffic_Lights_Sim\\ctrlTraficLight.cs",
+              "ViewState": "AgIAAPQAAAAAAAAAAAAAwAcBAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T19:38:02.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ctrlTraficLight.cs [Design]",
+              "DocumentMoniker": "D:\\Traffic_lights_Simulator\\Traffic_Lights_Sim\\Traffic_Lights_Sim\\ctrlTraficLight.cs",
+              "RelativeDocumentMoniker": "Traffic_Lights_Sim\\ctrlTraficLight.cs",
+              "ToolTip": "D:\\Traffic_lights_Simulator\\Traffic_Lights_Sim\\Traffic_Lights_Sim\\ctrlTraficLight.cs [Design]",
+              "RelativeToolTip": "Traffic_Lights_Sim\\ctrlTraficLight.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T19:24:46.025Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Traffic_lights_Simulator\\Traffic_Lights_Sim\\Traffic_Lights_Sim\\Form1.cs",
+              "RelativeDocumentMoniker": "Traffic_Lights_Sim\\Form1.cs",
+              "ToolTip": "D:\\Traffic_lights_Simulator\\Traffic_Lights_Sim\\Traffic_Lights_Sim\\Form1.cs*",
+              "RelativeToolTip": "Traffic_Lights_Sim\\Form1.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAtwBYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T19:54:42.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\Traffic_lights_Simulator\\Traffic_Lights_Sim\\Traffic_Lights_Sim\\Form1.cs",
               "RelativeDocumentMoniker": "Traffic_Lights_Sim\\Form1.cs",
-              "ToolTip": "D:\\Traffic_lights_Simulator\\Traffic_Lights_Sim\\Traffic_Lights_Sim\\Form1.cs [Design]",
-              "RelativeToolTip": "Traffic_Lights_Sim\\Form1.cs [Design]",
+              "ToolTip": "D:\\Traffic_lights_Simulator\\Traffic_Lights_Sim\\Traffic_Lights_Sim\\Form1.cs [Design]*",
+              "RelativeToolTip": "Traffic_Lights_Sim\\Form1.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-06T19:15:26.092Z",
               "EditorCaption": " [Design]"
