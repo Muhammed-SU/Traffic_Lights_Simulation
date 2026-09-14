@@ -47,7 +47,7 @@ TL1 🔴    TL2 🔴    TL3 🔴    TL4 🟢
 ## 📷 Screenshots
 <img src="./Screenshot 2026-09-14 232646.png" width="100%" />
 
-<img src="./turkce.png" width="100%" />
+<img src="./Screenshot 2026-09-14 232708.png" width="100%" />
 ---
 
 ## 🛠️ Technologies
