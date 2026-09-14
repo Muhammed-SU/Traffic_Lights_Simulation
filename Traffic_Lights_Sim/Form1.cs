@@ -64,11 +64,11 @@ namespace Traffic_Lights_Sim
                 light.CurrentLight = ctrlTraficLight.LightEnum.Red;
             }
 
-            //_TrafficLights[_CurrentLight].CurrentLight = ctrlTraficLight.LightEnum.Orange;
+            _TrafficLights[_CurrentLight].CurrentLight = ctrlTraficLight.LightEnum.Orange;
 
             // Make current traffic light GREEN
             _TrafficLights[_CurrentLight].CurrentLight =
-                ctrlTraficLight.LightEnum.Orange;
+                ctrlTraficLight.LightEnum.Green;
 
             // Start only current traffic light
             _TrafficLights[_CurrentLight].Start();
