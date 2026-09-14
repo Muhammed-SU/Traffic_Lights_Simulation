@@ -28,6 +28,20 @@ namespace Traffic_Lights_Sim
             }
         }
 
+        public event EventHandler CycleCompleted;
+
+        protected virtual void RaiseCycleCompleted()
+        {
+            CycleCompleted?.Invoke(this, EventArgs.Empty);
+        }
+
+        public event EventHandler GreenFinished;
+
+        protected virtual void RaiseGreenFinished()
+        {
+            GreenFinished?.Invoke(this, EventArgs.Empty);
+        }
+
         public event EventHandler<TraficLightEventArgs> RedLightOn;
         public void RaiseRedLightOn()
         {
@@ -47,7 +61,7 @@ namespace Traffic_Lights_Sim
 
         protected virtual void RaiseRedLightOff(TraficLightEventArgs e)
         {
-            RedLightOn?.Invoke(this, e);
+            RedLightOff?.Invoke(this, e);
         }
         //=====================================================================
         public event EventHandler<TraficLightEventArgs> OrangeLightOn;
@@ -77,7 +91,7 @@ namespace Traffic_Lights_Sim
         }
         protected virtual void RaiseGreenLightOff(TraficLightEventArgs e)
         {
-            RedLightOn?.Invoke(this, e);
+            GreenLightOff?.Invoke(this, e);
         }
         //=====================================================================
 
@@ -252,6 +266,7 @@ namespace Traffic_Lights_Sim
                         lblCountDown.Text = _CurrentCountDownValue.ToString();
                         RaiseRedLightOn();
 
+                        RaiseGreenFinished();
                     }
 
                     break;
